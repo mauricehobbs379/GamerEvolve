@@ -1,0 +1,218 @@
+
+
+header {
+    background-color: aqua;
+    font-style: italic;
+    font-size:50px;
+    padding-top:15px;
+    padding-bottom:15px;
+
+    text-align: center; 
+
+}
+body{
+   background-color: blueviolet;
+   display:flex;
+   flex-direction: column;
+}
+
+
+
+p{
+    font-size:21px;
+}
+h1,
+h2{
+    font-size:30px;
+    color: #001540;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+  text-align:center;
+  list-style-type:none;
+  margin: 0px;
+  padding:0px;
+}
+nav li{
+   display: inline-block;
+   border-color: aliceblue;
+   font-size:21px;
+   padding:15px;
+}
+.row,
+.col{
+    display:inline-flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content:space-between; 
+  }
+.col{
+    flex:1;
+    
+}
+img{
+    align-self: flex-end;
+    flex-shrink: -3;
+    border-radius: 50px;
+    height:350px;
+    width:350px;
+}
+[class] {
+    color:rgba(0, 255, 64, 0.925);
+}
+
+
+
+
+
+.row:after{
+    content:"";
+    display:table;
+    clear:both;
+}    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* xbox and ps css */
+.net{
+    display:flex;
+    flex-direction: column;
+}
+
+.photo{
+    border-radius: 50px 25px;
+    width:250px;
+    height:250px;
+    padding-bottom: 5px;
+    float:left;    
+}
+.alt{
+    display:inline-flex;
+    
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:480px){
+    
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media (max-width:769px){
+    .row{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+      }
+    .col{
+        flex: 1 50%;
+    }
+}
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cat {
+    display:inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: top;
+}
